@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Welcome to Vecta Corp.</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/layout.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="js/jquery.mobilemenu.js"></script>
+	<script src="js/jquery.cycle2.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#responsive-menu').mobileMenu();
+			$( function() {
+            $( document ).tooltip();
+            });
+		    $( function() {
+            $( "#tabs" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
+            $( "#tabs li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
+            });
+		});
+	     
+	</script>
+</head>
+<body>
+	<main class="container">
+		<figure class="three columns">
+			<img src="images/logo.gif" class="scale-with-grid" alt="">
+		</figure>
+		
+		<nav class="thirteen columns">
+			<ul id="responsive-menu">
+				<li><a href="index.html"    title="The place we are glad to be">Home</a></li>
+				<li><a href="aboutus.html"  title="Our history and mission">About Us</a></li>
+				<li><a href="solutions.html"title="Enterprise solutions and discounts">Solutions</a></li>
+				<li><a href="support.html"  title="24/7 helpdesk">Support</a></li>
+				<li><a href="contactus.html"title="We would be glad to hear from you">Contact Us</a></li>
+				
+			</ul>
+		</nav>
+		
+		<header class="sixteen columns">
+			<img src="images/header.gif" class="scale-with-grid" alt="">
+		</header>
+		
+		<section id="welcome" class="eleven columns">
+			<h4>About Us</h4>
+
+            <p>With innovative approaches and advanced methodologies, Vecta Corp. provides scalable business solutions to help companies achieve success through revenue increase, cost management and user satisfaction.</p>
+            <p>Our approach stems from the three most important business growth aspects: helping companies reach prospects, assist in converting prospects to customers, and assist in retaining those customers. This is accomplished through our interactive solutions and expertise in providing a memorable and positive user experience.</p>
+            <p>In order to effectively prospect, convert and retain, the user experience is placed at the center of all our development projects. Providing unique, memorable and positive experiences, striking the appropriate emotional connection and reducing mental effort required to interact with the site ultimately results in higher prospect conversion and customer retention figures.</p>
+            <p>Our expertise in strategy, design and technology allows us to create business solutions that excite and inspire, are easy to navigate, and enable businesses to strengthen their competitive advantage.</p>
+            <p>With increased conversion and retention, our solutions provide companies with opportunities to increase revenues and enhance productivity. This is how we helped Dorknozzle achieve remarkable success, including more than doubling their customer base from 20,000 to 70,000 within 15 months of launching a Vecta Corp. solution.</p>
+            
+            <h4>Management Team</h4>
+            
+            <!-- INSERT VERTICAL TABS HERE -->
+            <div id="tabs">
+				<ul>
+				  <li><a href="#tabs-1">CEO</a></li>
+				  <li><a href="#tabs-2">CFO</a></li>
+				  <li><a href="#tabs-3">CAO</a></li>
+				  <li><a href="#tabs-4">CTO</a></li>
+				  <li><a href="#tabs-5">CPA</a></li>
+				</ul>
+				<div id="tabs-1">
+					<h4>Mr.Pope</h4>
+				  <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+				</div>
+				<div id="tabs-2">
+					<h4>Mrs.Rodriges</h4>
+				  <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+				</div>
+				<div id="tabs-3">
+					<h4>Mrs.Semeon</h4>
+				  <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+				  <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+				</div>
+				<div id="tabs-4">
+					<h4>Mr.Pratt II Junior</h4>
+					<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+				  </div>
+				  <div id="tabs-5">
+					  <h4>Mrs.Lee</h4>
+					<p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+					<p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+				  </div>
+			  </div>
+            <h4>Our New Headquarters</h4>
+            
+            <!-- INSERT CYCLE 2 HERE -->
+			<div id=outside>
+				<!-- prev/next links -->
+				<div class=center>
+					<span id=prev>&lt;&lt;Prev </span>
+					<span id=next> Next&gt;&gt;</span>
+				</div>
+				<!-- slideshow -->
+				<div class="cycle-slideshow" 
+					data-cycle-fx=scrollHorz
+					data-cycle-timeout=0
+					data-cycle-prev="#prev"
+					data-cycle-next="#next"
+					>
+    <div class="cycle-prev"></div>
+    <div class="cycle-next"></div>
+    <img src="images/building_01.jpg" alt="Spring" >
+    <img src="images/building_02.jpg" alt="Redwoods" >
+    <img src="images/building_03.jpg" alt="Angle Island" >
+    <img src="images/building_04.jpg" alt="Raquette Lake" >
+             </div>
+           </div> 
+
+        </section>
+		
+		<section id="testimonials" class="five columns">
+			<h4>Careers</h4>
+			<p>We are always looking for educated and motivated people to join our team. Do you have what it takes to build best-of-breed vSolutions? Submit your resume.</p>
+		</section>
+	</main>
+</body>
+</html>
